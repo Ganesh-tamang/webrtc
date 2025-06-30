@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Screen Sharing WebRTC</title>
+</head>
+<body style="margin-left: 10%;">
+  <h1>WebRTC Screen Sharing</h1>
+  <p id="status">You can share your screen</p>
+  <div>
+    <button id="button" style="margin-bottom: 5mm; background-color: rgb(102, 223, 102); color: aliceblue;" >share screen</button>
+    <button id="cancelShareBtn" style="margin-bottom: 5mm;background-color: blue; color: aliceblue;display:none; ">Cancel Stream</button>
+  </div>
+  <video id="screen" autoplay playsinline controls muted style="width: 50%; max-height: 80vh;"></video>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
