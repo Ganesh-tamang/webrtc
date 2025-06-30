@@ -54,7 +54,7 @@
    npm install
 
    # For video stream only
-   cd video_stream
+   cd video_meet
    npm install
    npm install mkcert -g #for https setup
    mkcert create-ca
